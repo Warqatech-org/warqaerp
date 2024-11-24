@@ -1,5 +1,5 @@
 app_name = "erpnext"
-app_title = "ERPNext"
+app_title = "WarqaERP"
 app_publisher = "Frappe Technologies Pvt. Ltd."
 app_description = """ERP made simple"""
 app_icon = "fa fa-th"
@@ -7,13 +7,13 @@ app_color = "#e74c3c"
 app_email = "info@erpnext.com"
 app_license = "GNU General Public License (v3)"
 source_link = "https://github.com/frappe/erpnext"
-app_logo_url = "/assets/erpnext/images/erpnext-logo.svg"
+app_logo_url = "/assets/erpnext/images/wtech.png"
 
 add_to_apps_screen = [
     {
-        "name": "erpnext",
-        "logo": "/assets/erpnext/images/favicon.png",
-        "title": "WtechERP",
+        "name": "WarqaERP",
+        "logo": "/assets/erpnext/images/wtech.png",
+        "title": "WarqaERP",
         "route": "/app/home",
         "has_permission": "erpnext.check_app_permission",
     }
@@ -36,12 +36,12 @@ doctype_js = {
     "Contact": "public/js/contact.js",
 }
 doctype_list_js = {
-	"Code List": [
-		"edi/doctype/code_list/code_list_import.js",
-	],
-	"Common Code": [
-		"edi/doctype/code_list/code_list_import.js",
-	],
+    "Code List": [
+        "edi/doctype/code_list/code_list_import.js",
+    ],
+    "Common Code": [
+        "edi/doctype/code_list/code_list_import.js",
+    ],
 }
 
 override_doctype_class = {"Address": "erpnext.accounts.custom.address.ERPNextAddress"}
